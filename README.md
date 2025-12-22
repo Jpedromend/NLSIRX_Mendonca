@@ -82,3 +82,6 @@ This code was developed and tested using **Python 3.x**, and the following libra
 - [Pandas](https://pandas.pydata.org/) (tested on v2.3.3)
 - [Matplotlib](https://matplotlib.org/) (tested on v3.10.6)
 - [SciPy](https://scipy.org/) (tested on v1.16.2)
+
+> The initially produced fitting was performed using real data series from the JHU repository ([https://github.com/CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19)), downloaded in May 2020, but any first-wave real data can be accommodated with minimal tweaks to `process_jhu_data.py`; in principle, this framework can be used to simulate general outbreaks where containment efforts are implemented.
+
